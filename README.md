@@ -38,4 +38,4 @@ If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io
 #Discuss it	
   
  [bitcointalk](https://bitcointalk.org/index.php?topic=368226) 
- [reddit](http://TODO) 	
+ [reddit](http://www.reddit.com/r/CryptoMarkets/comments/1spnk3/online_spreadsheet_with_altcoins_live_data/) 	
