@@ -8,22 +8,17 @@ See the [Live Demo](http://goo.gl/RvCxne )
 ![Livedemoscreehshot](http://www.lize.it/up/altcoin_screenshot.png)
 
 #How does it work?
-It scrapes data from http://coinmarketcap.com . The data is contained in the 'sheet' called *PriceTicker*
+It scrapes data from http://coinmarketcap.com . The data is contained in the sheet called *Price Ticker*
 
 #How to use it
 
 There are a few steps needed for having this work on your own spreadsheet: 
 - Make a copy of the [Live Demo](http://goo.gl/RvCxne )  and open it
 - Past the content of [Code.gs](https://github.com/adv0r/altcoin-google-spreadsheet/blob/master/Code.gs) into a new script
-- Create a new trigger that call the function *transferValue()* every 5 minutes
+- Create a new trigger that calls the function *transferValue()* every 5 minutes
 - Done
 
-If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io* and add some coins if you want to get out of the noize. 
-
-#Discuss it	
-  
- [bitcointalk](http://goo.gl/RvCxne ) 
- [reddit](http://goo.gl/RvCxne ) 
+If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io* and attach some coins if you want to get out of the noise ;) .
 
 #TIPS:	
 ## Help this project if you think that this project helps you
@@ -39,3 +34,8 @@ If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io
 -  MEC	MDbrBWar6ANtiEbhRdVqWyii2gGLAumVjR
 -  SXC	S4fntfCLr1hWQZcXnYx9g4ZBZrp8H3zPfF
 -  DVC	15YXWsAWNu4mf4Yc6BDZPXTp9PLrUB2dRW
+
+#Discuss it	
+  
+ [bitcointalk](http://TODO) 
+ [reddit](http://TODO) 
