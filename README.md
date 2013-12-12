@@ -3,11 +3,11 @@ altcoin-google-spreadsheet
 
 Altcoin price tracker into a google spreadsheet.
 
-See the [Live Demo](http://goo.gl/RvCxne ) 
-
 ![Livedemoscreehshot](http://www.lize.it/up/altcoin_screenshot.png)
 
 #How does it work?
+Try the [Live Demo](http://goo.gl/RvCxne ) .
+
 It scrapes data from http://coinmarketcap.com . The data is contained in the sheet called *Price Ticker*.
 
 It all goes down to the magic done by importHtml() function with some tricks and parsing.
