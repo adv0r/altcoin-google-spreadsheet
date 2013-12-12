@@ -9,7 +9,10 @@ See the [Live Demo](http://goo.gl/RvCxne )
 
 #How does it work?
 It scrapes data from http://coinmarketcap.com . The data is contained in the sheet called *Price Ticker*
-
+It all goes down to the magic done by importHtml() function with some tricks and parsing.
+```
+ImportHtml("http://coinmarketcap.com/?"& year(now()) & month(now()) & day(now()) & hour(now()) ,"table",1)
+```
 #How to use it
 
 There are a few steps needed for having this work on your own spreadsheet: 
