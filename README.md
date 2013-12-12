@@ -37,5 +37,5 @@ If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io
 
 #Discuss it	
   
- [bitcointalk](http://TODO) 
- [reddit](http://TODO) 
+ [bitcointalk](https://bitcointalk.org/index.php?topic=368226) 
+ [reddit](http://TODO) 	
