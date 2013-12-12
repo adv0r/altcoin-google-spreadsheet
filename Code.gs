@@ -21,7 +21,6 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-
 function parseUsd(raw) //parse the value of 1 coin
 {
   var endindex= raw.lastIndexOf(".") -1;
@@ -39,7 +38,7 @@ function parseBtc(raw) //parse the value of 1 coin
 function getLineOf(coin)  //Gets the line at which to look at the price of the coin from coinmarketcap html scrape
 {
  var rowNumber = -1;
- var sheetCoinMarket = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('CoinmarketCapHTML');
+ var sheetCoinMarket = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('CoinmarketCAPtemporized');
 
  var dataCoinMarket = sheetCoinMarket.getDataRange().getValues(); // read all data in the sheet
 
@@ -61,4 +60,5 @@ function transferValues()
 
    var destRange = sheet2.getRange("A1:J50");
    sheet1.getRange("A1:J50").copyTo(destRange,{contentsOnly:true});
+}tsOnly:true});
 }
