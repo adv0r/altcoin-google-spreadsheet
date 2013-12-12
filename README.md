@@ -8,7 +8,8 @@ See the [Live Demo](http://goo.gl/RvCxne )
 ![Livedemoscreehshot](http://www.lize.it/up/altcoin_screenshot.png)
 
 #How does it work?
-It scrapes data from http://coinmarketcap.com . The data is contained in the sheet called *Price Ticker*
+It scrapes data from http://coinmarketcap.com . The data is contained in the sheet called *Price Ticker*.
+
 It all goes down to the magic done by importHtml() function with some tricks and parsing.
 ```
 ImportHtml("http://coinmarketcap.com/?"& year(now()) & month(now()) & day(now()) & hour(now()) ,"table",1)
@@ -41,4 +42,5 @@ If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io
 #Discuss it	
   
  [bitcointalk](https://bitcointalk.org/index.php?topic=368226) 
+ 
  [reddit](http://www.reddit.com/r/CryptoMarkets/comments/1spnk3/online_spreadsheet_with_altcoins_live_data/) 	
