@@ -1,24 +1,32 @@
 altcoin-google-spreadsheet
 ==========================
 
-Altcoin price tracker into a google spreadsheet. Scraping data from http://coinmarketcap.com 
+Altcoin price tracker into a google spreadsheet.
 
 See the [Live Demo](http://goo.gl/RvCxne ) 
 
-![Livedemoscreehshot](http://www.lize.it/up/altcoin_trigger_screenshot.png "Optional title")
-![Livedemoscreehshot](http://www.lize.it/up/altcoin_screenshot.png "Optional title")
+![Livedemoscreehshot](http://www.lize.it/up/altcoin_screenshot.png)
 
+#How does it work?
+It scrapes data from http://coinmarketcap.com . The data is contained in the 'sheet' called *PriceTicker*
 
-#How does it work?	
-Scraping data every 5 minutes from coinmarketcap.com
-#What can I do with it?	
-Check instructions on github : https://github.com/adv0r/altcoin-google-spreadsheet
-#Links?	
-bitcointalk - reddit
+#How to use it
 
-	
+There are a few steps needed for having this work on your own spreadsheet: 
+- Make a copy of the [Live Demo](http://goo.gl/RvCxne )  and open it
+- Past the content of [Code.gs](https://github.com/adv0r/altcoin-google-spreadsheet/blob/master/Code.gs) into a new script
+- Create a new trigger that call the function *transferValue()* every 5 minutes
+- Done
 
-#TIPS:	Help this project if you think that this project helps you
+If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io* and add some coins if you want to get out of the noize. 
+
+#Discuss it	
+  
+ [bitcointalk](http://goo.gl/RvCxne ) 
+ [reddit](http://goo.gl/RvCxne ) 
+
+#TIPS:	
+## Help this project if you think that this project helps you
 -  BTC	1NgDPjxNWxTUK9eUExEmAGj4mtiMLGFvYr
 -  LTC	LhgAgfFCAo4J6pvg3iyG4eQF5syiEZcXMZ
 -  MNC	N79FWuuHCcgNe2YPkenkdQrZXsksFxADuf
