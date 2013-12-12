@@ -3,13 +3,17 @@ altcoin-google-spreadsheet
 
 Altcoin price tracker into a google spreadsheet.
 
-See the [Live Demo](http://goo.gl/RvCxne ) 
-
 ![Livedemoscreehshot](http://www.lize.it/up/altcoin_screenshot.png)
 
 #How does it work?
-It scrapes data from http://coinmarketcap.com . The data is contained in the sheet called *Price Ticker*
+Try the [Live Demo](http://goo.gl/RvCxne ) .
 
+It scrapes data from http://coinmarketcap.com . The data is contained in the sheet called *Price Ticker*.
+
+It all goes down to the magic done by importHtml() function with some tricks and parsing.
+```
+ImportHtml("http://coinmarketcap.com/?"& year(now()) & month(now()) & day(now()) & hour(now()) ,"table",1)
+```
 #How to use it
 
 There are a few steps needed for having this work on your own spreadsheet: 
@@ -24,7 +28,7 @@ If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io
 ## Help this project if you think that this project helps you
 -  BTC	1NgDPjxNWxTUK9eUExEmAGj4mtiMLGFvYr
 -  LTC	LhgAgfFCAo4J6pvg3iyG4eQF5syiEZcXMZ
--  MNC	N79FWuuHCcgNe2YPkenkdQrZXsksFxADuf
+-  NMC	N79FWuuHCcgNe2YPkenkdQrZXsksFxADuf
 -  NVC	4Gprnc172MpPy5hENjdMxBoY6qaHbRMX7G
 -  TRC	1DnvtbUEcUGsshAjfqhDf4YTUkHEgxeUci
 -  PPC	PFRbFG4WmQPs12A7wGvQwtSXbhsnvZteoT
@@ -38,4 +42,5 @@ If you need help in setting this up, I'll be glad to help. Mail *nico@botcoin.io
 #Discuss it	
   
  [bitcointalk](https://bitcointalk.org/index.php?topic=368226) 
+ 
  [reddit](http://www.reddit.com/r/CryptoMarkets/comments/1spnk3/online_spreadsheet_with_altcoins_live_data/) 	
