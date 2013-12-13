@@ -12,7 +12,7 @@ It scrapes data from http://coinmarketcap.com . The data is contained in the she
 
 It all goes down to the magic done by importHtml() function with some tricks and parsing.
 ```
-ImportHtml("http://coinmarketcap.com/?"& year(now()) & month(now()) & day(now()) & hour(now()) ,"table",1)
+=importHtml("http://coinmarketcap.com/?"& year(now()) & month(now()) & day(now()) & hour(now()) & minute(now()),"table",1)
 ```
 #How to use it
 
