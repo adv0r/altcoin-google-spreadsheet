@@ -60,5 +60,4 @@ function transferValues()
 
    var destRange = sheet2.getRange("A1:J50");
    sheet1.getRange("A1:J50").copyTo(destRange,{contentsOnly:true});
-}tsOnly:true});
 }
