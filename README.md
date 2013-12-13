@@ -14,6 +14,8 @@ It all goes down to the magic done by importHtml() function with some tricks and
 ```
 =importHtml("http://coinmarketcap.com/?"& year(now()) & month(now()) & day(now()) & hour(now()) & minute(now()),"table",1)
 ```
+Then I made some magic to be sure to keep coins in the same order and to parse the data.
+
 #How to use it
 
 There are a few steps needed for having this work on your own spreadsheet: 
